@@ -45,6 +45,8 @@ VPNDetection vpn_detection = new VPNDetection();
         }).start();
 ```
 
+## Jar Download
+* [Latest Release](https://github.com/HiddenMotives/Java-VPNDetection/releases/latest)
 
 ## Required Dependencies
 * Gson 2.3.x +
