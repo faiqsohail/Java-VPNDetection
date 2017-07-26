@@ -1,10 +1,17 @@
 # Java VPN Detection
 
 Allows you to detect whether or not a specified IPv4 Address belongs to a hosting or vpn / proxy organization.
-This library facilitates and simplifies using the web API, and allows you to easily implement the functionality in your java applications.
+This library facilitates and simplifies the usage of the [VPN Blocker Web API](https://vpnblocker.net), and allows you to easily implement the functionality in your java applications.
 
 
 ## Usage
+
+First things, first.. remember to import the library:
+
+```java
+import vpn.detection.*;
+```
+
 
 A very basic usage example:
 
@@ -47,6 +54,3 @@ new Thread(() -> {
 
 ## Jar Download
 * [Latest Release](https://github.com/HiddenMotives/Java-VPNDetection/releases/latest)
-
-## Required Dependencies
-* Gson 2.3.x +
