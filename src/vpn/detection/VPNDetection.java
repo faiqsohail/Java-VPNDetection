@@ -15,7 +15,7 @@ import java.net.URLConnection;
  * This class facilitates and simplifies using the web API, and allows you to
  * easily implement the functionality in your applications.
  *
- * API Homepage: http://bit.ly/host-blocker
+ * API Homepage: https://vpnblocker.net
  *
  *
  * @author HiddenMotives
@@ -23,7 +23,7 @@ import java.net.URLConnection;
 public final class VPNDetection {
 
     private String api_key;
-    private String api_url = "http://tools.xioax.com/networking/v2/json/";
+    private String api_url = "http://api.vpnblocker.net/v2/json/";
     private int api_timeout = 5000;
 
     public VPNDetection() {
@@ -40,9 +40,9 @@ public final class VPNDetection {
     }
 
     /**
-     * You can obtain a API key from: http://bit.ly/host-blocker
+     * You can obtain a API key from: https://vpnblocker.net
      * (optional)
-     * 
+     *
      * @param key
      */
     public void set_api_key(String key) {
