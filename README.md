@@ -1,7 +1,7 @@
 # Java VPN Detection
 
 Allows you to detect whether or not a specified IPv4 Address belongs to a hosting or vpn / proxy organization.
-This library facilitates and simplifies the usage of the [VPN Blocker Web API](https://vpnblocker.net), and allows you to easily implement the functionality in your java applications.
+This library facilitates and simplifies the usage of the [VPN Blocker Web API](https://vpnblocker.net) - https://vpnblocker.net, and allows you to easily implement the functionality in your java applications.
 
 
 ## Usage
