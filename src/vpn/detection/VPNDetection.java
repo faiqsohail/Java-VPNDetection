@@ -87,13 +87,7 @@ public final class VPNDetection {
      * @return
      */
     public String get_query_url(String ip) {
-        String query_url;
-        if (this.api_key == null) {
-            query_url = this.api_url + ip;
-        } else {
-            query_url = this.api_url + ip + "/" + this.api_key;
-        }
-        return query_url;
+        return (this.api_key == null) ? this.api_url + ip : this.api_url + ip + "/" + this.api_key;
     }
 
     /**
