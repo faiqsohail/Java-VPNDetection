@@ -53,4 +53,4 @@ new Thread(() -> {
 ```
 
 ## Jar Download
-* [Latest Release](https://github.com/HiddenMotives/Java-VPNDetection/releases/latest)
+* [View Packages](https://github.com/faiqsohail/Java-VPNDetection/packages)
