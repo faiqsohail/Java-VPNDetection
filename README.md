@@ -9,7 +9,7 @@ This library facilitates and simplifies the usage of the [VPN Blocker Web API](h
 First things, first.. remember to import the library:
 
 ```java
-import vpn.detection.*;
+import net.vpnblocker.api.*;
 ```
 
 
