@@ -1,4 +1,4 @@
-package vpn.detection;
+package net.vpnblocker.api;
 
 import com.google.gson.annotations.SerializedName;
 

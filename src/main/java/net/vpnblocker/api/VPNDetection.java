@@ -1,4 +1,4 @@
-package vpn.detection;
+package net.vpnblocker.api;
 
 import com.google.gson.Gson;
 import java.io.BufferedReader;
@@ -114,8 +114,6 @@ public final class VPNDetection {
             while ((url = in.readLine()) != null) {
                 response.append(url);
             }
-
-            in.close();
         }
 
         return response.toString();
