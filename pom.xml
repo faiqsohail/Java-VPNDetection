@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>net.vpnblocker.api</groupId>
-    <artifactId>VPNDetection</artifactId>
+    <artifactId>detection</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
